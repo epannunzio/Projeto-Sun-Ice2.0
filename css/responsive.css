@@ -1,5 +1,18 @@
 @charset "UTF-8";
   @media (max-width: 768px) {
+    header.masthead {
+      width: 415px;
+    }
+    
+    .row {
+      --bs-gutter-x: 1rem;
+    }
+
+    .sorvetes-cardapio {
+      width: 400px !important;
+      height: 300px !important;
+    }
+
     header.masthead .masthead-subheading {
       padding-top: 25px;
     }
