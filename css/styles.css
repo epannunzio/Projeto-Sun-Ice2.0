@@ -69,6 +69,10 @@ p {
   color: #ffc800;
 }
 
+.grid-template {
+  display: grid !important;
+  grid-template-columns: 450px 450px 500px !important;
+}
 
 header.masthead {
   padding-top: 10.5rem;
